@@ -179,7 +179,7 @@ func (udm *UDM) Start() {
 
 	initLog.Infof("UDM Config Info: Version[%s] Description[%s]", config.Info.Version, config.Info.Description)
 
-	initLog.Infoln("Server started")
+	initLog.Infoln("Server started by Ashitha.....")
 
 	router := logger_util.NewGinWithLogrus(logger.GinLog)
 
